@@ -10,3 +10,10 @@ class Operacoes():
         for v in valores:
             val = val - v
         return val
+
+    def mult(self,valores):
+        val = 2
+        for v in valores:
+            val = val * v
+        return val
+    

@@ -8,6 +8,9 @@ class TestOperacoes(TestCase):
     def test_soma(self):
         self.assertEqual(self.operacoes.soma([1,5]), 6, "Deveria ser 6")
     
-    def test_subracao(self):
+    def test_subtracao(self):
         self.assertEqual(self.operacoes.subtracao([5,1]), -6, "Deveria ser 4")
+    
+    def test_multiplicacao(self):
+        self.assertEqual(self.operacoes.mult([6,3]), 36,"Deveria ser 36")
     
